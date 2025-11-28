@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,7 +10,10 @@ body {
   width: 1440px;
   margin: 200px auto;
 }
-  
+.testimonial-comment {
+  padding: 26px;
+}
+
 .first {
   display: flex;
   gap: 66px;
@@ -46,7 +49,7 @@ body {
 }
 .user-info {
   display: flex;
-  margin-top: 20px;
+  margin-top: 26px;
   font-size: 22px;
 }
 .user-box2 {
@@ -61,8 +64,8 @@ body {
   margin-right: 20px;
 }
 .second-box {
-  width: 700px;
-  height: 400px;
+  width: 772px;
+  height: 426px;
   border: #000 2px solid;
   border-radius: 40px;
   padding: 32px;
@@ -88,7 +91,7 @@ body {
   margin-top: 18px;
 }
 .comment-box3 {
-  width: 800px;
+  width: 888px;
   height: 500px;
   color: #f5f1f1;
   background-color: #080808;
@@ -105,7 +108,7 @@ body {
   line-height: 1.4;
 }
 .slider-box {
-  max-width: 1352px;
+  max-width: 1440px;
   margin-top: 20px;
   font-size: 40px;
   border: #080808 2px solid;
@@ -116,7 +119,6 @@ body {
   color: #080808;
   text-align: center;
 }
-
 
 .pic {
   display: flex;
@@ -137,3 +139,54 @@ body {
   height: 120px;
   opacity: 1;
 }
+
+@media (max-width: 640px) {
+  .main-container{
+    max-width: 400px;
+  }
+  .comment-box{
+    width: 400px;
+    height: auto;
+    font-size: 12px;
+  }
+  .comment-box p{
+    font-size: 20px;
+  }
+  .comment-box2{
+    font-size: 20px;
+  }
+  .second-box{
+    width: 400px;
+    height: auto;
+    padding: 10px;
+  }
+  .image-container img{
+    width: 400px;
+  }
+  .comment-box3{
+    width: 400px;
+    height: auto;
+    /* font-size: 16px; */
+  }
+  .text-area{
+    font-size: 20px;
+  }
+  .first {
+    flex-direction: column;
+
+  }
+  .second-flex {
+  flex-direction: column;
+  align-items: center;
+  
+}
+.slider-box{
+  max-width: 640px ;
+  font-size: 20px;
+}
+.pic img{
+  width: 50px;
+  height: 50px;
+  margin: 0px 10px;}
+}
+
