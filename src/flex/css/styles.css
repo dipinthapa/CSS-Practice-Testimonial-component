@@ -32,6 +32,9 @@ body {
 .comment-box p {
   color: #f5f1f1;
 }
+.space-in-box {
+  margin-top: 40px;
+}
 .triangle {
   width: 0;
   height: 0;
@@ -60,7 +63,7 @@ body {
   width: 100px;
   height: 100px;
   border-radius: 100%;
-  margin-right: 20px;
+  margin-right: 16px;
   color: #000;
 }
 .user-info {
@@ -78,7 +81,9 @@ body {
   border-radius: 100%;
   margin-right: 16px;
 }
-
+.user-box h3{
+  margin-top: 20px;
+}
 .review-area {
   font-size: 20px;
   color: #0e0d0d;
@@ -120,6 +125,9 @@ body {
   color: grey;
   font-size: 20px;
   margin-top: 16px;
+}
+.name-post h3{
+  margin-top: 20px;
 }
 .comment {
   font-size: 22px;
