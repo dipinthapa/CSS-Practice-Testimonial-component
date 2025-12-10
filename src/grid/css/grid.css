@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  max-width: 400px;
+}
+.first-card {
+  position: absolute;
+}
+.comment-box {
+  background-color: black;
+  width: 356px;
+  height: auto;
+  padding: 20px;
+  border-radius: 20px;
+}
+.down-arrow {
+  width: 0;
+  height: 0;
+  border-left: 16px solid transparent;
+  border-right: 16px solid transparent;
+  border-top: 16px solid #080808;
+  position: absolute;
+  left: 32px;
+  bottom: -14px;
+}
+.comment-box P {
+  color: aliceblue;
+}
+.user-info img {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
