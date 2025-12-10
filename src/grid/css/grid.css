@@ -7,12 +7,18 @@
 .main-container {
   max-width: 400px;
 }
-.first-card {
-  position: absolute;
+.testimonial-container {
+  display: grid;
+  grid-template-columns: 190px;
+  grid-template-rows: 5;
+  grid-gap: 16px;
 }
+/* .first-card {
+  position: absolute;
+} */
 .comment-box {
   background-color: black;
-  width: 356px;
+  width: 300px;
   height: auto;
   padding: 20px;
   border-radius: 20px;
@@ -24,8 +30,7 @@
   border-right: 16px solid transparent;
   border-top: 16px solid #080808;
   position: absolute;
-  left: 32px;
-  bottom: -14px;
+  left: 22px;
 }
 .comment-box P {
   color: aliceblue;
@@ -34,4 +39,29 @@
   border-radius: 100%;
   width: 50px;
   height: 50px;
+}
+.review-container {
+  border: 1px solid black;
+  width: 330px;
+  height: 330px;
+  column-span: 1;
+}
+.user-box img{
+  width: 25px;
+  height: 25px;
+}
+.image-container {
+  width: 330px;
+  height: 330px;
+  border: 1px solid black;
+}
+.rating-container {
+  height: 330px;
+  width: 330px;
+  border: 1px solid black;
+}
+.slider-container {
+  height: 330px;
+  width: 330px;
+  border: 1px solid black;
 }
