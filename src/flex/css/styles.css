@@ -98,6 +98,7 @@ body {
   width: 376px;
   height: auto;
   border-radius: 24px;
+  object-fit: cover;
 }
 .image-and-rating-section {
   display: flex;
@@ -161,6 +162,7 @@ body {
   border-radius: 100%;
   margin: 0px 20px;
   opacity: 0.5;
+  object-fit: cover;
 }
 .center-pic {
   width: 120px;
@@ -175,13 +177,16 @@ body {
 .icon{
   font-size: 12px;
 }
+.icon a{
+  color: #000;
+}
 .dev-name {
   margin-top: 10px;
 }
 @media (max-width: 640px) {
   .main-container {
     max-width: 386px;
-    margin-top: 20px;
+    margin-top: 20px ;
   }
   .testimonial-component {
     box-shadow: none;
@@ -218,17 +223,24 @@ body {
     height: auto;
     padding: 24px;
   }
+  .review-box p {
+    font-size: 20px;
+  }
   .employee-post {
     font-size: 16px !important;
     margin-top: 8px;
   }
   .image-container img {
     width: 316px;
+    margin-top: 10px;
   }
   .rating-section {
     width: 316px;
     height: auto;
     padding: 24px;
+  }
+  .comment{
+    font-size: 20px;
   }
   .commenter-name {
     font-size: 20px;
@@ -245,6 +257,13 @@ body {
     width: 316px;
     font-size: 20px;
     padding: 26px;
+    margin-top: 28px;
+  }
+  .slider-box p{
+    font-size: 20px;
+  }
+  .slider-pic{
+    gap: 0;
   }
   .slider-pic img {
     width: 50px;
@@ -274,15 +293,18 @@ body {
     display: block;
   }
   .user-box {
-    font-size: 24px;
+    font-size: 20px;
   }
   .user-info {
-    font-size: 24px;
+    font-size: 20px;
   }
   .slider-box {
     width: 690px;
     margin-top: 30px;
     padding: 46px;
+  }
+  .slider-box p{
+    font-size: 22px;
   }
   .comment-box {
     width: 690px;
