@@ -5,21 +5,21 @@
 }
 
 .main-container {
-  max-width: 400px;
+  max-width: 360px;
+  margin: 20px auto
 }
 .testimonial-container {
   display: grid;
-  grid-template-columns: 190px;
-  grid-template-rows: 5;
+  /* grid-template-columns: 190px;
+  grid-template-rows: 5; */
   grid-gap: 16px;
 }
 /* .first-card {
-  position: absolute;
-} */
-.comment-box {
+  } */
+  .comment-box {
+  position: relative;
+  width: 332px;
   background-color: black;
-  width: 300px;
-  height: auto;
   padding: 20px;
   border-radius: 20px;
 }
@@ -30,10 +30,13 @@
   border-right: 16px solid transparent;
   border-top: 16px solid #080808;
   position: absolute;
-  left: 22px;
+  left: 40px;
 }
 .comment-box P {
   color: aliceblue;
+}
+.user-info{
+  display: grid;
 }
 .user-info img {
   border-radius: 100%;
@@ -42,7 +45,7 @@
 }
 .review-container {
   border: 1px solid black;
-  width: 330px;
+  width: 150px;
   height: 330px;
   column-span: 1;
 }
@@ -51,17 +54,17 @@
   height: 25px;
 }
 .image-container {
-  width: 330px;
+  width: 150px;
   height: 330px;
   border: 1px solid black;
 }
 .rating-container {
-  height: 330px;
-  width: 330px;
+  height: 150px;
+  width: 150px;
   border: 1px solid black;
 }
 .slider-container {
-  height: 330px;
-  width: 330px;
+  
+  width: 150px;
   border: 1px solid black;
 }
