@@ -95,9 +95,10 @@ body {
     display: block;
   }
 .image-container img {
-  width: 336px;
-  height: 336px;
-  border-radius: 32px;
+  width: 376px;
+  height: auto;
+  border-radius: 24px;
+  object-fit: cover;
 }
 .image-and-rating-section {
   display: flex;
@@ -166,6 +167,7 @@ body {
   border-radius: 100%;
   margin: 0px 20px;
   opacity: 0.5;
+  object-fit: cover;
 }
 .center-pic {
   width: 120px;
@@ -180,13 +182,16 @@ body {
 .icon{
   font-size: 12px;
 }
+.icon a{
+  color: #000;
+}
 .dev-name {
   margin-top: 10px;
 }
 @media (max-width: 640px) {
   .main-container {
     max-width: 386px;
-    margin-top: 20px;
+    margin-top: 20px ;
   }
   .testimonial-component {
     box-shadow: none;
@@ -210,21 +215,21 @@ body {
   .user-info {
     font-size: 16px;
   }
-  .user-box img {
-    width: 74px;
-    height: 74px;
-  }
   .user-box {
     font-size: 16px;
   }
   .user-box img {
     width: 74px;
     height: 74px;
+    object-fit: cover;
   }
   .review-container {
     width: 316px;
     height: auto;
     padding: 24px;
+  }
+  .review-box p {
+    font-size: 20px;
   }
   .employee-post {
     font-size: 14px !important;
@@ -232,11 +237,16 @@ body {
   }
   .image-container img {
     width: 316px;
+    margin-top: 10px;
+    object-fit: cover;
   }
   .rating-section {
     width: 316px;
     height: 412px;
     padding: 24px;
+  }
+  .comment{
+    font-size: 20px;
   }
   .commenter-name {
     font-size: 20px;
@@ -254,6 +264,13 @@ body {
     width: 316px;
     font-size: 20px;
     padding: 26px;
+    margin-top: 28px;
+  }
+  .slider-box p{
+    font-size: 20px;
+  }
+  .slider-pic{
+    gap: 0;
   }
   .slider-pic img {
     width: 50px;
@@ -283,15 +300,21 @@ body {
     display: block;
   }
   .user-box {
-    font-size: 24px;
+    font-size: 20px;
+  }
+  .user-box img{
+    object-fit: cover;
   }
   .user-info {
-    font-size: 24px;
+    font-size: 20px;
   }
   .slider-box {
     width: 690px;
     margin-top: 34px;
     padding: 46px;
+  }
+  .slider-box p{
+    font-size: 22px;
   }
   .comment-box {
     width: 690px;
