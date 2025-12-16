@@ -10,15 +10,14 @@
 }
 .testimonial-container {
   display: grid;
-  /* grid-template-columns: 190px;
-  grid-template-rows: 5; */
-  grid-gap: 16px;
+  grid-gap: 26px;
+  max-width: 300px;
+  padding: 10px;
 }
 /* .first-card {
   } */
   .comment-box {
   position: relative;
-  width: 332px;
   background-color: black;
   padding: 20px;
   border-radius: 20px;
@@ -30,41 +29,99 @@
   border-right: 16px solid transparent;
   border-top: 16px solid #080808;
   position: absolute;
-  left: 40px;
+  left: 18px;
+  bottom: -10px;
 }
 .comment-box P {
   color: aliceblue;
 }
 .user-info{
   display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 100%;
+  margin-top: 20px;
 }
 .user-info img {
   border-radius: 100%;
   width: 50px;
   height: 50px;
+  
 }
 .review-container {
   border: 1px solid black;
-  width: 150px;
-  height: 330px;
-  column-span: 1;
+  border-radius: 20px;
+  padding: 16px;
+}
+.user-box {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 100%;
+  margin-top: 25px;
 }
 .user-box img{
-  width: 25px;
-  height: 25px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
-.image-container {
-  width: 150px;
-  height: 330px;
-  border: 1px solid black;
+.image-container img{
+  width: 300px;
+  height: 300px;
+  border-radius: 25px;
 }
-.rating-container {
-  height: 150px;
-  width: 150px;
-  border: 1px solid black;
+.rating-section {
+  border-radius: 25px;
+  padding: 20px;
+  background-color: #080808;
+  margin-top: 24px;
+}
+.rating-section p{
+   color: white;
+}
+.star {
+  color: gold;
 }
 .slider-container {
-  
-  width: 150px;
-  border: 1px solid black;
+  border: 2px solid black;
+  border-radius: 24px;
+  padding: 26px;
+}
+.slider-box p {
+  color: #080808;
+  text-align: center;
+  font-size: 26px;
+}
+
+.slider-pic {
+  display: flex;
+  align-items: center;
+  margin-top: 58px;
+  justify-content: center;
+  gap: 10px;
+}
+.slider-pic img {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  margin: 0px 20px;
+  opacity: 0.5;
+  object-fit: cover;
+}
+.center-pic {
+  width: 120px;
+  height: 120px;
+  opacity: 1;
+}
+#centre {
+  width: 84px;
+  height: 84px;
+  opacity: 1;
+}
+.icon{
+  font-size: 12px;
+}
+.icon a{
+  color: #000;
+}
+.dev-name {
+  margin-top: 10px;
 }
