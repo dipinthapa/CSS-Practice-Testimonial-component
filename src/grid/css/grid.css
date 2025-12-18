@@ -104,6 +104,8 @@ body {
   border-radius: 24px;
   padding: 26px;
   margin-top: 20px;
+  display: grid;
+  place-items: center;
 }
 .slider-box p {
   color: #080808;
@@ -145,9 +147,13 @@ body {
   margin-top: 10px;
 }
 
-@media (min-width: 640px) and (max-width: 1024px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .main-container {
     padding: 24px;
+  }
+  .testimonial-container{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 30px;
   }
   .user-box  {
     grid-template-columns: 10% 90%;
@@ -157,4 +163,39 @@ body {
     grid-template-columns: 10% 90%;
     grid-template-rows: 100%;
   }
+  /* .slider-pic {
+    gap: 0;
+  } */
+}
+
+
+@media (min-width:1024px) {
+  .main-container{
+      padding: 40px;
+      width: 1024px;
+  }
+   .testimonial-container {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    font-size: 22px;
+    column-gap: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   }
+   .first-card {
+    grid-column: 1 / 6;
+   }
+   .review-container{
+    grid-column: 6 / span 7;
+    margin-top: 0;
+   }
+   .image-container {
+    grid-column: 1 / 4;
+   }
+   .rating-card {
+    grid-column: 5 / span 8;
+   }
+   .slider-container {
+    grid-column: 1/ span 12;
+   }
 }
