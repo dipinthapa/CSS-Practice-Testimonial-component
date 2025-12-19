@@ -86,7 +86,6 @@ body {
 }
 .employee-post {
   font-size: 18px;
-  line-height: 2;
 }
 .review-area {
   font-size: 22px;
@@ -127,8 +126,7 @@ body {
 .text-area {
   margin-top: 20px;
   font-size: 28px;
-  line-height: 1.4;
-  letter-spacing: 1px;
+  line-height: 1.7;
 }
 .different-color {
   color: grey;
@@ -240,7 +238,6 @@ body {
   }
   .employee-post {
     font-size: 14px !important;
-    margin-top: 8px;
   }
   .image-container img {
     width: 316px;
