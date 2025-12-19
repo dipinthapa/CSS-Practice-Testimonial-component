@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Verdana, sans-serif;
+}
+h3 {
+    margin-top: 10px;
+  }
+.main-container {
+  /* max-width: 360px; */
+  margin: 20px auto;
+}
+.testimonial-container {
+  /* display: grid;
+  grid-gap: 26px; */
+  /* max-width: 300px; */
+  padding: 10px;
+}
+.comment-box {
+  position: relative;
+  background-color: black;
+  padding: 20px;
+  border-radius: 20px;
+}
+.down-arrow {
+  width: 0;
+  height: 0;
+  border-left: 16px solid transparent;
+  border-right: 16px solid transparent;
+  border-top: 16px solid #080808;
+  position: absolute;
+  left: 18px;
+  bottom: -10px;
+}
+.comment-box P {
+  color: aliceblue;
+  /* margin-top: 12px; */
+}
+.comment-box p span {
+  margin-top: 20px;
+}
+.line-brake{
+  margin-top: 14px;
+}
+.user-info {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 100%;
+  margin-top: 20px;
+}
+.user-info img {
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+.review-container {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 16px;
+  margin-top: 20px;
+}
+
+.user-box {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 100%;
+  margin-top: 25px;
+}
+.user-box img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.image-container {
+  display: grid;
+  place-items: center;
+  margin-top: 20px;
+}
+.image-container img {
+  width: 300px;
+  height: 300px;
+  border-radius: 25px;
+}
+.rating-section {
+  border-radius: 25px;
+  padding: 20px;
+  background-color: #080808;
+  margin-top: 20px;
+}
+.rating-comment {
+  color: white;
+}
+
+
+/* .rating-section p {
+  color: white;
+} */
+.commenter-name {
+  margin-top: 14px;
+  font-weight: 500;
+  color: white;
+}
+.different-color {
+  color: gray;
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
+/* .comment span {
+  color: white;
+} */
+.star {
+  color: gold;
+}
+.slider-container {
+  border: 1px solid black;
+  border-radius: 24px;
+  padding: 26px;
+  margin-top: 20px;
+  display: grid;
+  place-items: center;
+}
+.slider-box {
+  display: grid;
+  place-items: center;
+}
+.slider-box p {
+  color: #080808;
+  text-align: center;
+  font-size: 16px;
+}
+
+.slider-pic {
+  display: grid;
+  grid-template-columns:10% 20% 20% 20% 10% ;
+  place-items: center;
+  margin-top: 58px;
+  gap: 16px;
+}
+.slider-pic img {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  opacity: 0.5;
+  object-fit: cover;
+}
+.center-pic {
+  width: 120px;
+  height: 120px;
+  opacity: 1;
+}
+/* .user {
+  display: none;
+} */
+#centre {
+  width: 84px;
+  height: 84px;
+  opacity: 1;
+}
+.icon {
+  font-size: 12px;
+}
+.icon a {
+  color: #000;
+}
+.dev-name {
+  margin-top: 10px;
+}
+
+@media (min-width: 640px) and (max-width: 1023px) {
+  
+  .main-container {
+    padding: 24px;
+  }
+  .testimonial-container{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 30px;
+  }
+  .user-box  {
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 100%;
+  }
+  .user-info{
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 100%;
+  }
+  .slider-pic {
+    gap: 20px;
+  }
+}
+
+
+@media (min-width:1024px) {
+  .main-container{
+      padding: 40px;
+      width: 1024px;
+  }
+   .testimonial-container {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    font-size: 22px;
+    column-gap: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   }
+   .comment {
+    display: block;
+   }
+   .first-card {
+    grid-column: 1 / 7;
+   }
+   .review-container{
+    grid-column: 7 / 15;
+    margin-top: 0;
+   }
+   .rating-comment span {
+    display: block;
+   }
+   .review-area span {
+    display: block;
+   }
+   .image-container {
+    grid-column: 1 / 4;
+   }
+   .image-container img {
+    width: 266px;
+    height: 266px;
+    margin-top: 12px;
+   }
+   .rating-section{
+    margin-top: 34px;
+   }
+   .rating-card {
+    grid-column: 5 / 15;
+   }
+   .slider-container {
+    grid-column: 1/ 15;
+   }
+  
+   .slider-box p {
+    font-size: 22px;
+   }
+   .slider-box span{
+    display: block;
+   }
+   .slider-pic {
+    gap: 20px;
+   }
+}
